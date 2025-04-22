@@ -16,7 +16,7 @@ public class UsingInstantiate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(Space))
+        if(Input.GetKeyDown(KeyCode.Space))
         {
             Rigidbody rocketInstance;
             rocketInstance = Instantiate(rocketPrefab, barrelEnd.position, barrelEnd.rotation) as Rigidbody;
